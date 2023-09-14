@@ -1,26 +1,50 @@
+.opacity-0{
+  opacity: 0;
+}
 .mainPic{
   border: 1px solid #000;
+  width: 100%;
   height: 400px;
   background: url(../images/shelter/cat_bottom.svg) center center no-repeat;
   background-size: cover;
 }
 .smallPic{
   border: 1px solid #000;
+  width: 100%;
   height: 200px;
 }
+.mainItem1,.mainItem2,.mainItem3,.mainItem4{
+  transition: ease 0.3s;
+}
+.mainItem1{
+  background: url(../images/1.png) center center no-repeat;
+  background-size: cover;
+}
+.mainItem2{
+  background: url(../images/2.png) center center no-repeat;
+  background-size: cover;
+}
+.mainItem3{
+  background: url(../images/3.png) center center no-repeat;
+  background-size: cover;
+}
+.mainItem4{
+  background: url(../images/4.jpg) center center no-repeat;
+  background-size: cover;
+}
 .item1{
-  background: url(../images/shelter/cat_bottom.svg) center center no-repeat;
+  background: url(../images/1.png) center center no-repeat;
   background-size: cover;
 }
 .item2{
-  background: url(../images/shelter/cat_bottom.svg) center center no-repeat;
+  background: url(../images/2.png) center center no-repeat;
   background-size: cover;
 }
 .item3{
-  background: url(../images/shelter/cat_bottom.svg) center center no-repeat;
+  background: url(../images/3.png) center center no-repeat;
   background-size: cover;
 }
 .item4{
-  background: url(../images/shelter/cat_bottom.svg) center center no-repeat;
+  background: url(../images/4.jpg) center center no-repeat;
   background-size: cover;
 }

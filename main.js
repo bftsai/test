@@ -3,19 +3,46 @@ import './assets/scss/all.scss';
 $(document).ready(function () {
     $('.item1').click(function (e) { 
         e.preventDefault();
-        $('.mainPic').css({'background':'url(https://www.ncaa.org/images/2023/3/30/MBB-WBB_BallHoop.JPG?width=1884&quality=80&format=jpg) center center no-repeat'});
-        //$("#d1").css({"background-image": "url(jtp.png)"});
+        $('.mainPic').addClass('opacity-0');
+        setTimeout(() => {
+            $('.mainItem1').siblings().addClass('d-none');
+            $('.mainItem1').removeClass('d-none');
+            setTimeout(() => {
+                $('.mainItem1').removeClass('opacity-0');
+            }, 0.01*1000);
+        }, 0.3*1000);
     });
     $('.item2').click(function (e) { 
         e.preventDefault();
-        $('.mainPic').css({"background":"url(http://ncaaorg.sidearmsports.com/common/controls/image_handler.aspx?thumb_id=14&image_path=/images/2021/2/16/National_Office_3.jpg) center center no-repeat","background-size":"cover"});
+        $('.mainPic').addClass('opacity-0');
+        setTimeout(() => {
+            $('.mainItem2').siblings().addClass('d-none');
+            $('.mainItem2').removeClass('d-none');
+            setTimeout(() => {
+                $('.mainItem2').removeClass('opacity-0');
+            }, 0.01*1000);
+        }, 0.3*1000);
     });
     $('.item3').click(function (e) { 
         e.preventDefault();
-        $('.mainPic').css("background","url(https://www.ncaa.org/images/2023/3/30/MBB-WBB_BallHoop.JPG?width=1884&quality=80&format=jpg) center center no-repeat").css("background-size","cover");
+        $('.mainPic').addClass('opacity-0');
+        setTimeout(() => {
+            $('.mainItem3').siblings().addClass('d-none');
+            $('.mainItem3').removeClass('d-none');
+            setTimeout(() => {
+                $('.mainItem3').removeClass('opacity-0');
+            }, 0.01*1000);
+        }, 0.3*1000);
     });
     $('.item4').click(function (e) { 
         e.preventDefault();
-        $('.mainPic').css("background","url(http://ncaaorg.sidearmsports.com/common/controls/image_handler.aspx?thumb_id=14&image_path=/images/2021/2/16/National_Office_3.jpg) center center no-repeat").css("background-size","cover");
+        $('.mainPic').addClass('opacity-0');
+        setTimeout(() => {
+            $('.mainItem4').siblings().addClass('d-none');
+            $('.mainItem4').removeClass('d-none');
+            setTimeout(() => {
+                $('.mainItem4').removeClass('opacity-0');
+            }, 0.01*1000);
+        }, 0.3*1000);
     });
 });
